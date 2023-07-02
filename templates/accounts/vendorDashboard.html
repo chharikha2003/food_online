@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<h3>dashboard</h3>
+{{ user.username }}
+{{ user.get_role }}
+        
+{% include 'includes/alerts.html' %}
+                   
+<!-- Main Section End -->
+
+{% endblock %}
